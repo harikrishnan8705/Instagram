@@ -1,0 +1,71 @@
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.instatext{
+    width: 150px;
+
+    
+}
+.bi{
+  margin:10px;
+}
+.story{
+  height: 100px;
+}
+.profilepic{
+  width:25px;
+  height: 25px;
+  margin-right:10px
+}
+.post-image{
+  width: 600px;
+  height:300px;
+}
+.postpage{
+  margin-left: 80px;
+}
+.my-9{
+  top: 90px;
+}
+.text{
+  font-size:large;
+}
+
+
+.sugg-profilepic{
+ width:25px;
+  height: 25px;
+  margin-right:10px 
+}
+.btn{
+  margin-left: 190px;
+}
+.suggestion {
+  margin-top: 150px;
+}
+.story-dp{
+  width: 60px;
+  height:60px;
+}
+.story-border{
+  width: 65px;
+  height: 65px;
+  display:flex;
+  justify-content: center;
+  align-items:center ;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00 );
+
+}
+.story-image{
+  width: 500px;
+  height: 750px;
+}
+
+.profile-image{
+  width:100px;
+  height:100px;
+}
