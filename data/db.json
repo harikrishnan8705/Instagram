@@ -6,9 +6,9 @@
         "id": "user_101",
         "username": "hari_codes",
         "display_name": "Hari Krishnan",
-        "avatar_url": "/src/assets/images/profile pic1.jpeg"
+        "avatar_url": "public/images/profile pic1.jpeg"
       },
-      "image": "src/assets/images/story2.jpeg",
+      "image": "public/images/story2.jpeg",
       "caption": "Golden hour at Marina Beach 🌅 #sunset #chill",
       "likes": "123",
       "comments": [
@@ -28,9 +28,9 @@
         "id": "user_102",
         "username": "vijay_kumar00",
         "display_name": "Vijay Kumar",
-        "avatar_url": "src/assets/images/profile pic2.jpeg"
+        "avatar_url": "public/images/profile pic2.jpeg"
       },
-      "image": "src/assets/images/image2.webp",
+      "image": "public/images/image2.webp",
       "caption": "Golden hour at Marina Beach 🌅 #sunset #chill",
       "likes": "123",
       "comments": [
@@ -50,9 +50,9 @@
         "id": "user_101",
         "username": "Bogg_boss",
         "display_name": "Hari Krishnan",
-        "avatar_url": "src/assets/images/profile pic3.jpeg"
+        "avatar_url": "public/images/profile pic3.jpeg"
       },
-      "image": "src/assets/images/image3.jpg",
+      "image": "public/images/image3.jpg",
       "caption": "Golden hour at Marina Beach 🌅 #sunset #chill",
       "likes": "165",
       "comments": [
@@ -72,9 +72,9 @@
         "id": "user_103",
         "username": "ben_10",
         "display_name": "Kevin",
-        "avatar_url": "src/assets/images/profile pic4.jpeg"
+        "avatar_url": "public/images/profile pic4.jpeg"
       },
-      "image": "src/assets/images/image4.jpeg",
+      "image": "public/images/image4.jpeg",
       "caption": "Golden hour at Marina Beach 🌅 #sunset #chill",
       "likes": "134",
       "comments": [
@@ -93,64 +93,64 @@
     "id": 100,
     "username": "hari_s",
     "name": "Hari .S",
-    "avatar_url": "src/assets/images/profile pic1.jpeg"
+    "avatar_url": "public/images/profile pic1.jpeg"
   },
   "suggestions": [
     {
       "id": "user_100",
       "username": "hari_codes",
-      "avatar_url": "src/assets/images/profile pic1.jpeg"
+      "avatar_url": "/public/images/profile pic1.jpeg"
     },
     {
       "id": "user_101",
       "username": "hari_codes",
-      "avatar_url": "src/assets/images/profile pic2.jpeg"
+      "avatar_url": "/public/images/profile pic2.jpeg"
     },
     {
       "id": "user_102",
       "username": "vijay_kumar",
       "display_name": "Vijay Kumar",
-      "avatar_url": "src/assets/images/profile pic3.jpeg"
+      "avatar_url": "/public/images/profile pic3.jpeg"
     },
     {
       "id": "user_103",
       "username": "Bogg_boss",
       "display_name": "Hari Krishnan",
-      "avatar_url": "src/assets/images/profile pic4.jpeg"
+      "avatar_url": "/public/images/profile pic4.jpeg"
     }
   ],
   "story": [
     {
       "id": "1",
       "username": "hari_codes",
-      "avatar_url": "src/assets/images/profile pic1.jpeg",
-      "image": "/src/assets/images/story1.avif"
+      "avatar_url": "public/images/profile pic1.jpeg",
+      "image": "/public/images/story1.avif"
     },
     {
       "id": "2",
       "username": "hari_codes",
-      "avatar_url": "src/assets/images/profile pic2.jpeg",
-      "image": "/src/assets/images/story2.jpeg"
+      "avatar_url": "public/images/profile pic2.jpeg",
+      "image": "/public/images/story2.jpeg"
     },
     {
       "id": "3",
       "username": "vijay_kumar",
       "display_name": "Vijay Kumar",
-      "avatar_url": "src/assets/images/profile pic3.jpeg",
-      "image": "/src/assets/images/story3.jpg"
+      "avatar_url": "public/images/profile pic3.jpeg",
+      "image": "/public/images/story3.jpg"
     },
     {
       "id": "4",
       "username": "Bogg_boss",
       "display_name": "Hari Krishnan",
-      "avatar_url": "src/assets/images/profile pic4.jpeg",
-      "image": "/src/assets/images/story4.jpg"
+      "avatar_url": "public/images/profile pic4.jpeg",
+      "image": "/public/images/story4.jpg"
     }
   ],
   "Profile": {
     "id": "1",
     "username": "hari_boss",
-    "avatar_url": "src/assets/images/profile pic3.jpeg",
-    "profilepic": "src/assets/images/profile pic1.jpeg"
+    "avatar_url": "public/images/profile pic3.jpeg",
+    "profilepic": "public/images/profile pic1.jpeg"
   }
 }
