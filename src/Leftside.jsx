@@ -8,7 +8,7 @@ function Leftside() {
        <div  style={{backgroundColor:"black"}}>
 
     <div  className="m-5 mx-2 position-fixed">
-        <img className="instatext" src="./public/images/instatext5.webp" alt="" />
+        <img className="instatext" src="/images/instatext5.webp" alt="" />
     </div >
 
  <div className=" text my-9  m-5 mx-2 d-flex flex-column gap-4 position-fixed">
