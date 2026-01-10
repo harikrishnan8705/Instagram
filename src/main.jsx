@@ -4,6 +4,8 @@ import App from './App.jsx'
 import ViewStory from './ViewStory.jsx'
 import Profile from './Profile.jsx'
 import Notification from './Notification.jsx'
+import Reels from './Reels.jsx'
+import Messages from './Messages.jsx'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter(
@@ -23,7 +25,15 @@ const router = createBrowserRouter(
     {
       path:'/notification',
       element:<Notification/>
-    }
+    },
+    {
+      path:'/reels',
+      element:<Reels/>
+    },
+    { 
+      path:'/messages',
+      element: <Messages/>   
+     }
   ]
 )
 

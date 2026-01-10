@@ -149,8 +149,33 @@
   ],
   "Profile": {
     "id": "1",
-    "username": "hari_boss",
+    "username": "hari_krish",
     "avatar_url": " /images/profile pic3.jpeg",
     "profilepic": "/images/profile pic1.jpeg"
-  }
+  },
+  "Followers": [
+    {
+      "id": "user_101",
+      "username": "hari_codes",
+      "image": "/images/profile pic2.jpeg"
+    }
+  ],
+  "Reels": [
+    {
+      "id": "1",
+      "video_url": "https://youtube.com/embed/pgLNIGTw2nw?si=JHlW8dXycDlUIiBO"
+    },
+    {
+      "id": "2",
+      "video_url": "https://youtube.com/embed/qUhgtU9YzEY?si=3US3vDuNIrAa_W6k"
+    },
+    {
+      "id": "3",
+      "video_url": "https://youtube.com/embed/jFVQqsfubco?si=4U3hFTaW91VAnza7"
+    },
+    {
+      "id": "4",
+      "video_url": "https://youtube.com/embed/4amd4BkSdPo?si=MPJqHKrVz_MZGRrI"
+    }
+  ]
 }

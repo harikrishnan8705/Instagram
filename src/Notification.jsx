@@ -13,13 +13,13 @@ function Notification() {
    },[])
 
   return (
-    <div>
+    <div style={{backgroundColor:"black", minHeight:"100vh"}}>
         {notification.length > 0 ? (
             notification.map((notify) =>(
                 <div key={notify.id}>
                     <div>
                         <h3>{notify.username}</h3>
-                        <p>{notify.avatar_url}</p>
+                        <img src={notify.avatar_url} alt="" />
                     </div>
                 </div>
             ))

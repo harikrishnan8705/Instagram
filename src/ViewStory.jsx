@@ -24,21 +24,24 @@ function ViewStory() {
   }
  
   return (
-    <div className=' d-flex justify-content-center align-items-center' >
+    
+    <div className=' d-flex justify-content-center align-items-center' style={{backgroundColor:"black", minHeight:"100vh"}}>
       {story ? 
         <div>
+          
           <Link to={`http://localhost:5173/story/${Number(id)-1}/${total}`}><i className="bi bi-arrow-left-circle-fill"></i></Link>
           <img className="story-image" src={story.image} alt="image" />
           <Link to={`http://localhost:5173/story/${Number(id)+1}/${total}`}><i className="bi bi-arrow-right-circle-fill"></i></Link>
-          <Link to="/">home</Link>
+          <button className='btn btn-primary  m-2' onClick={()=> navigate('/')}>Home</button>
         </div>
-
+         
       :<div>
         <p>no story</p>
         </div>
         
       }
     </div>
+    
   )
 }
 

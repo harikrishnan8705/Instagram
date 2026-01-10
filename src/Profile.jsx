@@ -6,11 +6,22 @@ function Profile() {
 
    const [profiles, setProfiles] = useState(null);
 
+   const [followers, setFollowers] = useState([])
+
+   const [unfollow, setUnfollow] = useState(0);
+
    useEffect(() =>{
      axios.get('http://localhost:3000/Profile')
      .then(data => setProfiles(data.data))
      .catch(err => console.log(err))
-   },[])
+
+     axios.get('http://localhost:3000/Followers')
+     .then(data => setFollowers(data.data))
+     .catch(err => console.log(err))
+
+     
+
+   },[unfollow])
 
    function handleOnchange(e){
     
@@ -26,9 +37,16 @@ function Profile() {
     .then(console.log('updated'))
     .catch(err => console.log(err))
    }
+     const handleunfollow =async(id) =>{
+       axios.delete(`http://localhost:3000/Followers/${id}`)
+     .then(alert('unfollowed'))
+     .then(setUnfollow(!unfollow))
+     .catch(err => console.log(err))
+     }
+   
 
   return (
-    <div className="m-5">
+    <div className="p-5" style={{backgroundColor: "black", color:"white",minHeight: "100vh"}}>
          
         {profiles ? (
             <div  key={profiles.id}>
@@ -56,7 +74,26 @@ function Profile() {
             </div>
         ) : (
          <p>loading</p>)}
-    </div> 
+     
+
+     {followers.length > 0 ? (
+      
+       followers.map((follow) => (
+          <div key={follow.id}>
+              <div className="d-flex  my-2">
+                <div><img className="sugg-profilepic rounded-circle" src={follow.image} alt=" no image" /></div>
+               <div>{follow.username}</div> 
+               <button className="btn btn-primary ms-auto" onClick={()=>handleunfollow(follow.id)}>Unfollow</button>
+              </div>
+
+          </div>
+          
+        ) )
+     ):(
+      <div>No Followers...</div>                  
+     )}
+     </div>
+
   )
 }
 

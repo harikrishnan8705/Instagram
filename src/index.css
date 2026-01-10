@@ -4,6 +4,10 @@
 .w-30{
   width: 30%;
 }
+.w-50{
+  width: 50%;
+}
+
 .instatext{
     width: 150px;
 
@@ -13,7 +17,7 @@
   margin:10px;
 }
 .story{
-  height: 100px;
+  height: 120px;
 }
 .profilepic{
   width:25px;
@@ -47,12 +51,13 @@
   margin-top: 150px;
 }
 .story-dp{
-  width: 60px;
-  height:60px;
+  width: 80px;
+  height:80px;
+  cursor:pointer;
 }
 .story-border{
-  width: 65px;
-  height: 65px;
+  width: 85px;
+  height: 85px;
   display:flex;
   justify-content: center;
   align-items:center ;
@@ -68,4 +73,14 @@
 .profile-image{
   width:100px;
   height:100px;
+}
+.option{
+  cursor:pointer;
+}
+.right{
+  cursor:pointer;
+  color:blue;
+}
+.right:hover{
+  color:white;
 }
