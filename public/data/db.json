@@ -121,46 +121,46 @@
   ],
   "story": [
     {
-      "id": "1",
+      "id": 1,
       "username": "hari_codes",
       "avatar_url": "/images/profile pic1.jpeg",
       "image": "/images/story1.avif"
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "hari_codes",
       "avatar_url": "/images/profile pic2.jpeg",
       "image": "/images/story2.jpeg"
     },
     {
-      "id": "3",
+      "id": 3,
       "username": "vijay_kumar",
       "display_name": "Vijay Kumar",
       "avatar_url": "/images/profile pic3.jpeg",
       "image": "/images/story3.jpg"
     },
     {
-      "id": "4",
+      "id": 4,
       "username": "Bogg_boss",
       "display_name": "Hari Krishnan",
       "avatar_url": "/images/profile pic4.jpeg",
       "image": "/images/story4.jpg"
     }
   ],
-  "Profile": {
+  "profile": {
     "id": "1",
-    "username": "hari_krish",
+    "username": "hari_krishnan",
     "avatar_url": " /images/profile pic3.jpeg",
     "profilepic": "/images/profile pic1.jpeg"
   },
-  "Followers": [
+  "followers": [
     {
-      "id": "user_103",
-      "username": "Bogg_boss",
-      "image": "/images/profile pic4.jpeg"
+      "id": "user_102",
+      "username": "vijay_kumar",
+      "image": "/images/profile pic3.jpeg"
     }
   ],
-  "Reels": [
+  "reels": [
     {
       "id": "1",
       "video_url": "https://youtube.com/embed/pgLNIGTw2nw?si=JHlW8dXycDlUIiBO"
@@ -178,4 +178,5 @@
       "video_url": "https://youtube.com/embed/4amd4BkSdPo?si=MPJqHKrVz_MZGRrI"
     }
   ]
+
 }

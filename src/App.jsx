@@ -4,6 +4,7 @@ import Leftside from './Leftside.jsx'
 import Center from './Center.jsx'
 import Rightside from './Rightside.jsx'
 
+
 function App() {
   return (
    <>

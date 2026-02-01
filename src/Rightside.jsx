@@ -7,14 +7,14 @@ function Rightside() {
   const [profile, setprofile] = useState(null) ;
 
  useEffect(() =>{
-  fetch('http://localhost:3000/suggestions')
+  fetch('/data/db.json')
   .then((data) =>data.json())
-  .then((data) =>setSuggestions(data))
+  .then((data) =>setSuggestions(data.suggestions))
   .catch((error) =>console.log("error"))
 
-   fetch('http://localhost:3000/Profile')
+   fetch('/data/db.json')
   .then((data) =>data.json())
-  .then((data) =>setprofile(data))
+  .then((data) =>setprofile(data.profile))
   .catch((error) =>console.log(error))
  },[])
 

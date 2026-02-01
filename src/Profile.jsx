@@ -11,12 +11,12 @@ function Profile() {
    const [unfollow, setUnfollow] = useState(0);
 
    useEffect(() =>{
-     axios.get('http://localhost:3000/Profile')
-     .then(data => setProfiles(data.data))
+     axios.get('/data/db.json')
+     .then(data => setProfiles(data.data.profile))
      .catch(err => console.log(err))
 
-     axios.get('http://localhost:3000/Followers')
-     .then(data => setFollowers(data.data))
+     axios.get('/data/db.json')
+     .then(data => setFollowers(data.data.followers))
      .catch(err => console.log(err))
 
      
@@ -33,12 +33,12 @@ function Profile() {
    }
 
    const handleUpdate =async () =>{
-    axios.put('http://localhost:3000/Profile', profiles)
+    axios.put('/data/db.json', profiles)
     .then(console.log('updated'))
     .catch(err => console.log(err))
    }
      const handleunfollow =async(id) =>{
-       axios.delete(`http://localhost:3000/Followers/${id}`)
+       axios.delete(`/data/db.json/${id}`)
      .then(alert('unfollowed'))
      .then(setUnfollow(!unfollow))
      .catch(err => console.log(err))

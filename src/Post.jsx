@@ -6,9 +6,9 @@ function Post() {
     const [posts, setPosts] = useState([])
 
     useEffect(() =>{
-        fetch('http://localhost:3000/post')
+        fetch('/data/db.json')
         .then ((response) => response.json())
-        .then ((data) => setPosts(data))
+        .then ((data) => setPosts(data.post))
         .catch ((error) => console.log("error is occurring"))
     }, [])
 

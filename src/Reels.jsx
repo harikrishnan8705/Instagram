@@ -9,8 +9,8 @@ function Reels() {
     const navigate = useNavigate();
 
     useEffect(() =>{
-        axios.get('http://localhost:3000/Reels')
-        .then((data) =>setReels(data.data))
+        axios.get('/data/db.json')
+        .then((data) =>setReels(data.data.reels))
         .catch(err => console.log(err))
     })
   return (

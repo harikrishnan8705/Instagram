@@ -12,9 +12,9 @@ function Story() {
   
 
 useEffect(()=>{
-  fetch('http://localhost:3000/story')
+  fetch('/data/db.json')
   .then(data =>data.json())
-  .then(data =>setStories(data))
+  .then(data =>setStories(data.story))
   .catch(err =>console.log("error"))
 }, [])
 
